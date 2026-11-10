@@ -1,0 +1,1013 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Numan Mustafa Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Numan Mustafa, e-commerce specialist and marketplace growth partner for Amazon, eBay, Walmart, Shopify and TikTok Shop sellers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: dark navy stage. Silver device mockups carry the real dashboards; glass cards float around them; marquees and slider add motion. */
+:root{
+  --bg:#050A14; --bg2:#08111F; --panel:rgba(255,255,255,.045); --panel-2:rgba(255,255,255,.08);
+  --line:rgba(130,170,255,.16); --ink:#F2F6FF; --muted:#9BABC6;
+  --blue:#2F6BFF; --cyan:#22D3EE; --amber:#FBBF24; --good:#34D399;
+  --grad:linear-gradient(100deg,#2F6BFF 0%,#22D3EE 100%);
+  --f-display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --f-body:"Instrument Sans","Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --r:16px; color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+main{overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--f-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:90;background:var(--bg)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;background:
+  radial-gradient(900px 500px at 85% -5%,rgba(47,107,255,.22),transparent 60%),
+  radial-gradient(700px 480px at -5% 30%,rgba(34,211,238,.10),transparent 60%),
+  radial-gradient(800px 500px at 60% 105%,rgba(47,107,255,.14),transparent 60%)}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.06;letter-spacing:-.025em;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+section{padding-block:clamp(64px,9vw,120px)}
+.tag{font:600 12px/1 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--cyan)}
+.h2{font-size:clamp(32px,4.8vw,56px);font-weight:700}
+.grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{color:var(--muted);max-width:60ch;margin-top:16px}
+.sec-head{display:grid;gap:14px;margin-bottom:clamp(36px,5vw,60px)}
+.glass{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px}
+i[data-i]{display:inline-flex;width:1.2em;height:1.2em;flex:none}
+i[data-i] svg{width:100%;height:100%}
+#progress{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:3px;width:0;background:var(--grad);z-index:100}
+
+/* reveal */
+.js .rv{opacity:.3;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.7,.2,1) var(--d,0s),transform .8s cubic-bezier(.2,.7,.2,1) var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+
+/* buttons */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;font:600 16px/1 var(--f-body);text-decoration:none;border:1px solid transparent;cursor:pointer;color:var(--ink);transition:transform .25s,box-shadow .25s,background .25s}
+.btn.primary{background:var(--grad);color:#04101F;box-shadow:0 8px 30px -8px rgba(47,107,255,.7)}
+.btn.primary:hover{transform:translateY(-3px);box-shadow:0 14px 40px -8px rgba(34,211,238,.6)}
+.btn.ghost{border-color:var(--line);background:var(--panel)}
+.btn.ghost:hover{border-color:var(--cyan);transform:translateY(-3px)}
+.btn.sm{min-height:44px;padding:0 18px;font-size:15px}
+
+/* header */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:80;background:rgba(5,10,20,.72);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:18px;min-height:72px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font:700 19px/1 var(--f-display);white-space:nowrap}
+.logo b{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:var(--grad);color:#04101F;font:700 14px/1 var(--f-mono)}
+nav.links{margin-left:auto;display:flex;gap:2px}
+nav.links a{padding:10px 13px;border-radius:999px;text-decoration:none;font-weight:500;font-size:15px;color:var(--muted);transition:color .2s,background .2s}
+nav.links a:hover,nav.links a.on{color:var(--ink);background:var(--panel-2)}
+.menu-btn{display:none;margin-left:auto;width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);place-items:center;cursor:pointer}
+@media (max-width:1020px){
+  .top .btn{display:none}
+  nav.links{position:absolute;left:0;right:0;top:100%;flex-direction:column;background:rgba(5,10,20,.97);border-bottom:1px solid var(--line);padding:10px max(16px,env(safe-area-inset-left,0px)) 18px;margin:0;display:none}
+  nav.links.open{display:flex}
+  nav.links a{padding:14px 10px;font-size:18px}
+  .menu-btn{display:grid}
+}
+
+/* hero */
+.hero{padding-block:clamp(36px,6vw,84px) clamp(48px,7vw,90px);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:clamp(28px,4vw,56px);align-items:center}
+@media (max-width:980px){.hero-grid{grid-template-columns:minmax(0,1fr)}}
+.me{display:flex;align-items:center;gap:16px;padding:10px 20px 10px 10px;width:fit-content;max-width:100%;border-radius:20px}
+.me img{width:76px;height:76px;border-radius:16px;object-fit:cover;object-position:50% 12%;border:1.5px solid rgba(34,211,238,.6);box-shadow:0 0 0 4px rgba(47,107,255,.18),0 10px 30px -6px rgba(34,211,238,.45)}
+.me b{display:block;font:700 20px/1.1 var(--f-display)}
+.me span{display:block;color:var(--muted);font-size:14px;line-height:1.35;margin-top:4px}
+.hero h1{font-size:clamp(40px,5.8vw,74px);font-weight:800;letter-spacing:-.04em;margin:26px 0 20px}
+.hero .sub{color:var(--muted);font-size:clamp(17px,1.6vw,20px);max-width:48ch}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.hero-on h1,.hero-on .me,.hero-on .sub,.hero-on .actions{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.hero-on .me{animation-delay:.05s}.hero-on h1{animation-delay:.15s}.hero-on .sub{animation-delay:.28s}.hero-on .actions{animation-delay:.4s}
+@keyframes rise{from{opacity:.25;transform:translateY(24px)}to{opacity:1;transform:none}}
+
+/* devices */
+.stage{perspective:1700px;position:relative}
+.device{transition:transform .8s cubic-bezier(.2,.7,.2,1);transform-style:preserve-3d;will-change:transform}
+.stage:hover .device.tilt{transform:rotateY(0) rotateX(0) rotateZ(0)}
+.tilt.l{transform:rotateY(12deg) rotateX(3deg) rotateZ(-1.2deg)}
+.tilt.r{transform:rotateY(-12deg) rotateX(3deg) rotateZ(1.2deg)}
+@media (max-width:700px){.tilt.l{transform:rotateY(5deg)}.tilt.r{transform:rotateY(-5deg)}}
+.laptop{position:relative;width:100%}
+.lid{background:linear-gradient(160deg,#d9dde3 0%,#9ea5b0 55%,#c5cad2 100%);border-radius:16px 16px 5px 5px;padding:9px 9px 11px;box-shadow:0 40px 80px -20px rgba(0,0,0,.8),0 0 70px -10px rgba(47,107,255,.35),inset 0 0 0 1px rgba(255,255,255,.5)}
+.screen{position:relative;aspect-ratio:16/10;border-radius:7px;overflow:hidden;background:radial-gradient(120% 120% at 20% 10%,#1d4ed8 0%,#0b1d4a 45%,#050b1c 100%);display:grid;place-items:center}
+.screen::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,rgba(255,255,255,.14),transparent 38%);pointer-events:none}
+.win{width:90%;border-radius:6px;overflow:hidden;box-shadow:0 18px 40px -10px rgba(0,0,0,.65);background:#fff;display:block;padding:0;border:0;cursor:zoom-in}
+.win img{display:block;width:100%;height:auto;max-height:100%}
+.base{position:relative;height:15px;width:106%;margin-left:-3%;background:linear-gradient(#e4e7ec,#a2a9b4);border-radius:0 0 18px 18px;box-shadow:0 18px 30px -10px rgba(0,0,0,.7)}
+.base::before{content:"";position:absolute;left:50%;top:0;width:18%;height:5px;transform:translateX(-50%);background:#8a919c;border-radius:0 0 8px 8px}
+.monitor .bezel{background:linear-gradient(160deg,#dfe3e8,#a3aab5);border-radius:14px;padding:10px;box-shadow:0 40px 80px -20px rgba(0,0,0,.8),0 0 70px -10px rgba(34,211,238,.28),inset 0 0 0 1px rgba(255,255,255,.5)}
+.monitor .screen{aspect-ratio:16/9.4}
+.monitor .chin{height:26px;background:linear-gradient(#d3d7de,#aab1bb);border-radius:0 0 12px 12px;margin:0 10px -6px}
+.monitor .neck{width:15%;height:44px;margin:6px auto 0;background:linear-gradient(90deg,#9097a2,#dfe3e8,#9097a2)}
+.monitor .foot{width:34%;height:9px;margin:0 auto;background:linear-gradient(#cfd3da,#8d949f);border-radius:5px 5px 14px 14px;box-shadow:0 16px 26px -8px rgba(0,0,0,.7)}
+.phone{width:min(210px,44%);background:#0d1117;border-radius:30px;padding:8px;box-shadow:0 30px 60px -15px rgba(0,0,0,.85),0 0 0 2px #2b3441,0 0 50px -10px rgba(47,107,255,.4)}
+.phone .ps{border-radius:23px;overflow:hidden;background:#fff;aspect-ratio:9/16;position:relative}
+.phone img{width:100%;height:100%;object-fit:contain;object-position:50% 0;display:block;cursor:zoom-in;background:#fff}
+.phone::before{content:"";position:absolute;top:14px;left:50%;transform:translateX(-50%);width:34%;height:6px;border-radius:4px;background:#0d1117;z-index:2}
+
+/* hero slider */
+.slides{position:absolute;inset:0;display:grid;place-items:center}
+.slide{position:absolute;inset:0;display:grid;place-items:center;opacity:0;transform:scale(.97) translateY(8px);transition:opacity .8s,transform .8s;pointer-events:none}
+.slide.on{opacity:1;transform:none;pointer-events:auto}
+.slide .win{width:94%}
+.slide-ui{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:40px;flex-wrap:wrap}
+.dots{display:flex;gap:8px}
+.dot{width:10px;height:10px;border-radius:99px;border:0;background:rgba(255,255,255,.25);cursor:pointer;padding:0;transition:width .3s,background .3s}
+.dot.on{width:30px;background:var(--grad)}
+.cap{font:600 12px/1 var(--f-mono);letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.arrows{display:flex;gap:8px}
+.arrow{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--panel);color:var(--ink);display:grid;place-items:center;cursor:pointer;transition:border-color .2s,transform .2s}
+.arrow:hover{border-color:var(--cyan);transform:scale(1.07)}
+
+/* floating glass chips */
+.chip-f{position:absolute;display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:14px;font-size:14px;line-height:1.3;z-index:5;animation:float 7s ease-in-out infinite;box-shadow:0 20px 40px -15px rgba(0,0,0,.6)}
+.chip-f b{display:block;font-weight:600}
+.chip-f small{color:var(--muted);font-size:12.5px}
+.chip-f .ok{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;background:rgba(52,211,153,.16);color:var(--good)}
+.c1{left:-4%;top:-7%}.c2{right:-3%;bottom:30%;animation-delay:-2.5s}.c3{left:-2%;bottom:20%;animation-delay:-4.5s}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@media (max-width:980px){.stage{margin-top:30px}}
+@media (max-width:700px){.c1{left:2%;top:-9%}.c2,.c3{display:none}.chip-f{padding:9px 12px;font-size:12.5px}}
+.orb{position:absolute;border-radius:50%;filter:blur(2px);pointer-events:none;animation:float 9s ease-in-out infinite}
+.o1{width:14px;height:14px;background:var(--cyan);right:6%;top:-2%;box-shadow:0 0 30px 6px rgba(34,211,238,.6)}
+.o2{width:9px;height:9px;background:var(--blue);left:46%;bottom:-6%;box-shadow:0 0 24px 5px rgba(47,107,255,.7);animation-delay:-3s}
+
+/* marquee */
+.marq{padding-block:0;border-block:1px solid var(--line);background:rgba(255,255,255,.02);overflow:hidden}
+.mq{display:flex;width:max-content;animation:mq 38s linear infinite;padding-block:22px}
+.mq.rev{animation-direction:reverse;animation-duration:52s;padding-block:8px 24px}
+.marq:hover .mq{animation-play-state:paused}
+.mq span{display:inline-flex;align-items:center;gap:14px;padding-right:48px;font:700 clamp(22px,3vw,34px)/1 var(--f-display);letter-spacing:-.02em;white-space:nowrap}
+.mq span i{width:10px;height:10px;border-radius:50%;background:var(--c,var(--cyan));box-shadow:0 0 14px var(--c,var(--cyan))}
+.mq.txt span{font-weight:600;font-size:clamp(18px,2.2vw,26px);color:transparent;-webkit-text-stroke:1px rgba(190,210,255,.5)}
+.mq.txt span em{font-style:normal;color:var(--cyan);-webkit-text-stroke:0;font-size:.7em}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* platforms */
+.plat-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}
+.plat{grid-column:span 2;padding:26px;position:relative;overflow:hidden;transition:transform .3s,border-color .3s}
+.plat:nth-child(n+4){grid-column:span 3}
+@media (max-width:1000px){.plat,.plat:nth-child(n+4){grid-column:span 3}.plat:last-child{grid-column:span 6}}
+@media (max-width:640px){.plat,.plat:nth-child(n+4),.plat:last-child{grid-column:span 6}}
+.plat::before{content:"";position:absolute;inset:0 0 auto;height:3px;background:var(--b)}
+.plat::after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;right:-90px;top:-110px;background:radial-gradient(circle,var(--b),transparent 65%);opacity:.18;transition:opacity .4s}
+.plat:hover{transform:translateY(-6px);border-color:var(--b)}
+.plat:hover::after{opacity:.4}
+.plat h3{font-size:26px;margin:14px 0 14px;display:flex;align-items:center;gap:10px}
+.plat .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:color-mix(in srgb,var(--b) 18%,transparent);color:var(--b);font-size:22px}
+.plat ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;position:relative;z-index:1}
+.plat li{display:flex;gap:10px;color:#C9D5EA;font-size:16px}
+.plat li::before{content:"";width:6px;height:6px;margin-top:.7em;border-radius:50%;background:var(--b);flex:none}
+
+/* work */
+.proj{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,72px);align-items:center;padding-block:clamp(32px,4vw,56px)}
+.proj.flip{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+.proj.flip .stage{order:2}
+@media (max-width:900px){.proj,.proj.flip{grid-template-columns:minmax(0,1fr)}.proj.flip .stage{order:0}}
+.proj+.proj{border-top:1px solid var(--line)}
+.proj h3{font-size:clamp(28px,3.4vw,42px);margin:14px 0 14px}
+.proj p{color:var(--muted)}
+.proj ul{list-style:none;padding:0;margin:20px 0 26px;display:grid;gap:10px}
+.proj li{display:flex;gap:12px;align-items:flex-start}
+.proj li i{color:var(--cyan);margin-top:.28em}
+.proj .acts{display:flex;gap:10px;flex-wrap:wrap}
+.toast{position:absolute;right:-2%;bottom:6%;z-index:6;display:flex;gap:12px;align-items:center;padding:14px 18px;background:#fff;color:#0b1b33;border-radius:12px;box-shadow:0 24px 50px -12px rgba(0,0,0,.7);max-width:300px;animation:float 8s ease-in-out infinite}
+.toast .dotb{width:34px;height:34px;border-radius:50%;background:#0071CE;color:#FFC220;display:grid;place-items:center;flex:none}
+.toast b{display:block;font-size:14.5px;line-height:1.2}
+.toast span{font-size:13.5px;color:#41536f}
+.toast em{position:absolute;top:-9px;left:12px;font:600 10px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;background:#0b1b33;color:#9bd3ff;padding:4px 7px;border-radius:5px;font-style:normal}
+.combo{position:relative;padding-bottom:34px}
+.combo .phone{position:absolute;right:-1%;bottom:-6%;z-index:4;animation:float 8s ease-in-out infinite}
+.combo .mini{position:absolute;left:-2%;bottom:-2%;z-index:5;width:min(250px,48%);padding:6px;border-radius:12px;animation:float 9s ease-in-out infinite;animation-delay:-3s;cursor:zoom-in;border:0;background:var(--panel-2);backdrop-filter:blur(10px)}
+.mini img,.thumb img{display:block;width:100%;height:auto;border-radius:7px}
+.mini small{display:block;font:600 11px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--cyan);padding:8px 4px 4px;text-align:left}
+.dual{position:relative;padding-bottom:12%}
+.dual .laptop.b{position:absolute;width:52%;right:0;bottom:-2%;z-index:4;animation:float 9s ease-in-out infinite;animation-delay:-3s}
+.ph{display:grid;place-items:center;gap:10px;text-align:center;width:90%;aspect-ratio:16/9.6;border:2px dashed rgba(255,255,255,.4);border-radius:8px;color:#dbe8ff;padding:16px;background:rgba(255,255,255,.07);font-size:15px}
+.ph b{font-family:var(--f-display);font-size:18px}
+.ph small{color:#a9bde0;font-size:13px}
+
+/* case studies */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.tab{font:600 14px/1 var(--f-body);padding:14px 20px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--muted);cursor:pointer;transition:all .25s}
+.tab:hover{color:var(--ink);border-color:var(--cyan)}
+.tab[aria-selected="true"]{background:var(--grad);color:#04101F;border-color:transparent}
+.cs{padding:clamp(20px,3vw,36px);animation:fadeIn .6s both}
+@keyframes fadeIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.cs-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(20px,3vw,40px);align-items:center;margin-bottom:28px}
+@media (max-width:860px){.cs-top{grid-template-columns:minmax(0,1fr)}}
+.cs-top h3{font-size:clamp(26px,3.2vw,38px);margin:10px 0 12px}
+.cs-shot{display:block;width:100%;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;padding:0;cursor:zoom-in;transition:transform .4s}
+.cs-shot:hover{transform:scale(1.015)}
+.cs-shot img{display:block;width:100%;height:auto}
+.cs-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:900px){.cs-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.cs-grid{grid-template-columns:minmax(0,1fr)}}
+.blk{padding:20px;border-radius:14px;background:rgba(255,255,255,.03);border:1px solid var(--line);display:grid;gap:10px;align-content:start}
+.blk.wide{grid-column:span 3;background:linear-gradient(135deg,rgba(47,107,255,.14),rgba(34,211,238,.06))}
+@media (max-width:900px){.blk.wide{grid-column:span 2}}
+@media (max-width:600px){.blk.wide{grid-column:span 1}}
+.blk h4{font:600 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--cyan)}
+.blk p,.blk li{color:#C9D5EA;font-size:15.5px}
+.blk ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.blk .tl{display:flex;flex-wrap:wrap;gap:8px}
+.blk .tl span{padding:7px 11px;border-radius:8px;background:var(--panel-2);font-size:14px}
+.cs-more{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.thumb{width:150px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;padding:0;cursor:zoom-in}
+.thumb img{display:block;width:100%}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+@media (max-width:1000px){.svc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.svc-grid{grid-template-columns:minmax(0,1fr)}}
+.svc{padding:26px;display:flex;flex-direction:column;gap:14px;min-width:0;position:relative;overflow:hidden;transition:transform .3s,border-color .3s}
+.svc::before{content:"";position:absolute;inset:0;background:radial-gradient(400px 200px at var(--mx,50%) var(--my,0%),rgba(47,107,255,.2),transparent 70%);opacity:0;transition:opacity .3s;pointer-events:none}
+.svc:hover{transform:translateY(-5px);border-color:rgba(34,211,238,.5)}
+.svc:hover::before{opacity:1}
+.svc .ic{width:50px;height:50px;border-radius:14px;display:grid;place-items:center;background:var(--grad);color:#04101F;font-size:24px}
+.svc h3{font-size:22px}
+.svc p{color:var(--muted);font-size:16px}
+.svc ul{margin:0;padding:0;list-style:none;display:grid;gap:7px;font-size:15px;color:#C9D5EA}
+.svc li{display:flex;gap:9px}.svc li i{color:var(--cyan);margin-top:.25em;font-size:.95em}
+.svc .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:8px}
+.also{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:30px}
+.also span.pill{padding:10px 16px;border-radius:999px;border:1px solid var(--line);background:var(--panel);font-size:15px}
+
+/* process */
+.steps{position:relative;display:grid;gap:22px;max-width:860px;margin-inline:auto;padding-left:0}
+.steps::before{content:"";position:absolute;left:27px;top:10px;bottom:10px;width:2px;background:var(--line)}
+.steps .fill{position:absolute;left:27px;top:10px;width:2px;height:0;background:var(--grad);box-shadow:0 0 14px var(--cyan)}
+.step{display:grid;grid-template-columns:56px minmax(0,1fr);gap:20px;align-items:start}
+.step .n{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--bg2);border:1px solid var(--line);font:600 15px/1 var(--f-mono);color:var(--muted);position:relative;z-index:1;transition:all .4s}
+.step.on .n{border-color:var(--cyan);color:var(--cyan);box-shadow:0 0 0 6px rgba(34,211,238,.1),0 0 24px rgba(34,211,238,.35)}
+.step .c{padding:22px 24px}
+.step h3{font-size:24px;margin-bottom:6px}
+.step p{color:var(--muted);font-size:16px}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+@media (max-width:1000px){.skills{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.skills{grid-template-columns:minmax(0,1fr)}}
+.sk{padding:22px;display:grid;gap:12px;align-content:start;transition:transform .3s,border-color .3s}
+.sk:hover{transform:translateY(-4px);border-color:var(--cyan)}
+.sk i{font-size:26px;color:var(--cyan)}
+.sk h3{font-size:19px}
+.sk p{color:var(--muted);font-size:15px}
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px;align-items:center}
+.tools .tag{margin-right:8px}
+.tools span.pill{padding:9px 14px;border-radius:10px;background:var(--panel-2);font-size:14.5px}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(32px,6vw,80px);align-items:center}
+@media (max-width:860px){.about{grid-template-columns:minmax(0,1fr)}}
+.portrait{position:relative;max-width:470px;margin-inline:auto;width:100%}
+.portrait::before{content:"";position:absolute;inset:-14px;border-radius:34px;background:var(--grad);opacity:.35;filter:blur(26px)}
+.portrait .frame{position:relative;border-radius:28px;padding:3px;background:linear-gradient(150deg,var(--cyan),var(--blue) 60%,rgba(255,255,255,.2))}
+.portrait img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;object-position:50% 20%;border-radius:25px;background:#fff}
+.portrait .chip-f{left:auto;right:-18px;bottom:26px;top:auto;animation-duration:8s}
+@media (max-width:520px){.portrait .chip-f{right:-6px}}
+.about p{color:#C9D5EA}
+.about p+p{margin-top:14px}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:26px}
+@media (max-width:520px){.facts{grid-template-columns:minmax(0,1fr)}}
+.facts div{padding:16px 18px;border-radius:14px}
+.facts small{display:block;font:600 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--cyan);margin-bottom:8px}
+
+/* why */
+.why{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:900px){.why{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.why{grid-template-columns:minmax(0,1fr)}}
+.why div{padding:24px}
+.why i{font-size:26px;color:var(--cyan)}
+.why h3{font-size:20px;margin:14px 0 8px}
+.why p{color:var(--muted);font-size:15.5px}
+
+/* gallery */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.fchip{font:600 13px/1 var(--f-mono);padding:12px 16px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--muted);cursor:pointer}
+.fchip[aria-pressed="true"]{background:var(--ink);color:#050A14;border-color:var(--ink)}
+.shots{columns:2 420px;column-gap:20px}
+.shot{break-inside:avoid;margin:0 0 20px;padding:10px;display:grid;gap:10px}
+.shot[hidden]{display:none}
+.shot .fz{display:block;width:100%;padding:0;border:0;border-radius:9px;overflow:hidden;background:#fff;cursor:zoom-in;position:relative}
+.shot img{display:block;width:100%;height:auto;transition:transform .5s}
+.shot .fz:hover img{transform:scale(1.03)}
+.shot.tall .fz{max-height:420px}
+.shot figcaption{padding:2px 6px 6px;display:grid;gap:2px}
+.shot b{font:700 20px/1.15 var(--f-display)}
+.shot span{color:var(--muted);font-size:14.5px}
+.note{margin-top:6px;color:var(--muted);font-size:14.5px;max-width:70ch}
+
+/* testimonials */
+.car{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:6px;scroll-behavior:smooth}
+.car::-webkit-scrollbar{display:none}
+.tc{flex:0 0 min(440px,86%);scroll-snap-align:start;padding:28px;display:grid;gap:18px;align-content:space-between}
+.tc q{display:block;font:500 19px/1.55 var(--f-body);quotes:none;color:#E1EAFB}
+.tc .who{display:flex;gap:14px;align-items:center}
+.tc .av{width:48px;height:48px;border-radius:50%;background:var(--grad);display:grid;place-items:center;color:#04101F;font:700 16px/1 var(--f-display);flex:none}
+.tc b{display:block}.tc small{color:var(--muted)}
+.car-ui{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:14px;flex-wrap:wrap}
+.hint{color:var(--muted);font-size:14.5px;max-width:60ch}
+
+/* faq */
+.faq{display:grid;gap:12px;max-width:860px}
+details{border-radius:14px;background:var(--panel);border:1px solid var(--line);transition:border-color .3s}
+details[open]{border-color:rgba(34,211,238,.5)}
+summary{cursor:pointer;list-style:none;padding:20px 22px;font:600 18px/1.35 var(--f-display);display:flex;justify-content:space-between;gap:16px;align-items:center}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font:500 26px/1 var(--f-mono);color:var(--cyan);transition:transform .3s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 22px 22px;color:var(--muted);max-width:68ch}
+
+/* contact */
+.contact{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,64px);align-items:start}
+@media (max-width:920px){.contact{grid-template-columns:minmax(0,1fr)}}
+.contact h2{font-size:clamp(34px,5vw,60px);font-weight:800;letter-spacing:-.035em}
+.ways{display:grid;gap:12px;margin-top:30px}
+.way{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:14px;min-width:0;text-decoration:none;transition:border-color .25s,transform .25s}
+.way:hover{border-color:var(--cyan);transform:translateX(4px)}
+.way .ic{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--panel-2);color:var(--cyan);font-size:22px;flex:none}
+.way .v{flex:1;min-width:0;overflow-wrap:anywhere}
+.way .v small{display:block;font:600 11px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.way .cp{flex:none;font:600 12px/1 var(--f-mono);padding:9px 11px;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+form.inq{padding:clamp(22px,3.4vw,38px);display:grid;gap:18px}
+form.inq h3{font-size:28px}
+.fr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:560px){.fr{grid-template-columns:minmax(0,1fr)}}
+.fld{display:grid;gap:7px;min-width:0}
+.fld label{font:600 12px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.fld input,.fld select,.fld textarea{font:400 16px/1.4 var(--f-body);color:var(--ink);background:rgba(5,10,20,.7);border:1px solid var(--line);border-radius:12px;padding:14px;width:100%;transition:border-color .2s,box-shadow .2s}
+.fld select option{background:#0A1424;color:#F2F6FF}
+.fld textarea{min-height:150px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 4px rgba(34,211,238,.14)}
+.fld.bad input,.fld.bad select,.fld.bad textarea{border-color:#FB7185}
+.err{color:#FDA4AF;font-size:14px;min-height:0}
+.ok-panel{display:none;text-align:left;gap:16px}
+.ok-panel.show{display:grid}
+.ok-panel .big{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:rgba(52,211,153,.16);color:var(--good);font-size:28px}
+.ok-panel pre{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font:500 14px/1.6 var(--f-mono);padding:16px;border-radius:12px;background:rgba(5,10,20,.7);border:1px dashed var(--line);color:#C9D5EA;max-height:260px;overflow:auto}
+.ok-panel .row{display:flex;gap:10px;flex-wrap:wrap}
+.fine{color:var(--muted);font-size:14px}
+
+footer.site{border-top:1px solid var(--line);padding-block:36px;color:var(--muted);font-size:15px}
+footer.site .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px 28px;align-items:center}
+footer.site nav{display:flex;gap:18px;flex-wrap:wrap}
+footer.site a{text-decoration:none}footer.site a:hover{color:var(--cyan)}
+
+/* floating actions */
+.fabs{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));display:grid;gap:12px;z-index:70;justify-items:end}
+.fab{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;border:0;cursor:pointer;color:#fff;text-decoration:none;font-size:26px;box-shadow:0 12px 30px -6px rgba(0,0,0,.7);transition:transform .25s}
+.fab:hover{transform:scale(1.1)}
+.fab.wa{background:#25D366;animation:pulse 2.6s ease-out infinite}
+.fab.up{width:46px;height:46px;font-size:20px;background:var(--panel-2);border:1px solid var(--line);backdrop-filter:blur(10px);opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .3s,transform .3s}
+.fab.up.show{opacity:1;pointer-events:auto;transform:none}
+@keyframes pulse{0%{box-shadow:0 12px 30px -6px rgba(0,0,0,.7),0 0 0 0 rgba(37,211,102,.5)}70%,100%{box-shadow:0 12px 30px -6px rgba(0,0,0,.7),0 0 0 18px rgba(37,211,102,0)}}
+
+/* overlays */
+.ov{position:fixed;inset:0;z-index:120;display:none;background:rgba(3,7,14,.88);backdrop-filter:blur(8px);padding:max(16px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(16px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+.ov.open{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;animation:fadeIn .3s both}
+.lb .box{max-width:min(1400px,100%);max-height:calc(100% - 80px);overflow:auto;border-radius:10px;background:#fff}
+.lb img{display:block;max-width:100%;height:auto;margin:auto}
+.lb p{color:#DCE6F8;font-size:15px;text-align:center;max-width:72ch}
+.xbtn{position:absolute;right:max(16px,env(safe-area-inset-right,0px));top:max(16px,env(safe-area-inset-top,0px));width:46px;height:46px;border-radius:50%;border:0;background:#fff;color:#050A14;cursor:pointer;display:grid;place-items:center;font-size:22px;z-index:3}
+.lb .nav{position:absolute;top:50%;width:46px;height:46px;border-radius:50%;border:0;background:rgba(255,255,255,.9);color:#050A14;cursor:pointer;display:grid;place-items:center;transform:translateY(-50%);z-index:3}
+.lb .prev{left:max(12px,env(safe-area-inset-left,0px))}.lb .next{right:max(12px,env(safe-area-inset-right,0px))}
+.modal{background:#0B1526;border:1px solid var(--line);border-radius:20px;padding:clamp(22px,3vw,36px);max-width:620px;width:100%;max-height:100%;overflow:auto;position:relative;display:grid;gap:16px}
+.modal h3{font-size:30px}.modal p{color:var(--muted)}
+.modal ul{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.modal li{display:flex;gap:10px}.modal li i{color:var(--cyan);margin-top:.3em}
+.modal .xbtn{position:static;justify-self:end;background:var(--panel-2);color:var(--ink);width:40px;height:40px;margin:-8px -8px 0 0}
+
+
+/* zoom icon on every enlargeable image */
+.win,.cs-shot,.fz,.thumb{position:relative}
+.win::after,.cs-shot::after,.fz::after,.thumb::after,.mini::after,.ps::after{content:"";position:absolute;right:10px;bottom:10px;width:38px;height:38px;border-radius:50%;background:rgba(5,10,20,.85) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3M11 8v6M8 11h6'/%3E%3C/svg%3E") center/20px no-repeat;border:1px solid rgba(255,255,255,.4);box-shadow:0 6px 18px rgba(0,0,0,.45);pointer-events:none;transition:transform .25s,background-color .25s}
+.thumb::after{width:28px;height:28px;right:6px;bottom:6px;background-size:15px}
+.mini::after{right:8px;bottom:36px;width:30px;height:30px;background-size:16px}
+.win:hover::after,.cs-shot:hover::after,.fz:hover::after,.thumb:hover::after,.mini:hover::after,.ps:hover::after{transform:scale(1.12);background-color:#2F6BFF}
+.lb .zbtn{right:calc(max(16px,env(safe-area-inset-right,0px)) + 58px)}
+.lb img{cursor:zoom-in}
+.lb.zoomed .box{max-width:100%}
+.lb.zoomed img{max-width:none;width:auto;cursor:zoom-out}
+.proj.wide{grid-template-columns:minmax(0,1.4fr) minmax(0,.7fr)}
+.proj.wide.flip{grid-template-columns:minmax(0,.7fr) minmax(0,1.4fr)}
+@media (max-width:900px){.proj.wide,.proj.wide.flip{grid-template-columns:minmax(0,1fr)}}
+.monitor.ultra .screen{aspect-ratio:var(--ar,2.11/1);background:#fff;display:block}
+.monitor.ultra .win{display:block;width:100%;height:100%;border-radius:0;box-shadow:none}
+.monitor.ultra .win img{width:100%;height:100%;object-fit:cover}
+.monitor.ultra .win::after{right:14px;bottom:14px}
+.pop{position:absolute;top:7%;right:3%;z-index:4;display:flex;gap:12px;align-items:center;width:min(300px,52%);padding:13px 16px;background:rgba(255,255,255,.97);color:#0b1b33;border-radius:14px;box-shadow:0 22px 50px -12px rgba(0,0,0,.6),0 0 0 1px rgba(11,27,51,.08)}
+.pop .dotb{width:36px;height:36px;border-radius:50%;background:#0071CE;color:#fff;display:grid;place-items:center;flex:none;font-size:18px}
+.pop b{display:block;font-size:14px;line-height:1.2}
+.pop span.t{display:block;font-size:13px;color:#3d4f6b;line-height:1.3;margin-top:2px}
+.pop small{position:absolute;top:8px;right:12px;font:600 10px/1 var(--f-mono);color:#7a8aa5}
+.proj.in .pop{animation:popIn .9s cubic-bezier(.2,.8,.2,1) .7s both}
+@keyframes popIn{from{opacity:0;transform:translateX(40px) scale(.96)}to{opacity:1;transform:none}}
+@media (max-width:700px){.pop{padding:9px 11px;gap:9px}.pop .dotb{width:28px;height:28px}.pop b{font-size:12px}.pop span.t{font-size:11px}}
+.tools-wrap{margin-top:46px}
+.tmq{overflow:hidden;margin-top:18px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.tmq-track{display:flex;gap:14px;width:max-content;animation:mq 46s linear infinite}
+.tmq:hover .tmq-track{animation-play-state:paused}
+.tool{display:flex;align-items:center;gap:12px;padding:14px 22px 14px 14px;border-radius:14px;white-space:nowrap;font-weight:500;font-size:16px}
+.tool b{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--grad);color:#04101F;font:700 14px/1 var(--f-display)}
+.stars{display:inline-flex;gap:3px;vertical-align:middle}
+.tc .av img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.tc .av{overflow:hidden}
+.rate{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(24px,4vw,56px);padding:clamp(24px,4vw,48px);margin-top:34px;align-items:start}
+@media (max-width:860px){.rate{grid-template-columns:minmax(0,1fr)}}
+.rate h3{font-size:clamp(26px,3.2vw,38px);margin:12px 0 14px}
+.rate p{color:var(--muted)}
+.avg{display:flex;align-items:center;gap:12px;margin-top:18px;font:700 22px/1 var(--f-display)}
+.avg small{font:400 15px/1.2 var(--f-body);color:var(--muted)}
+.rform{display:grid;gap:16px}
+.starpick{display:flex;gap:4px}
+.st{background:none;border:0;padding:4px;cursor:pointer;border-radius:8px;transition:transform .15s}
+.st:hover{transform:scale(1.15)}
+.st svg{width:34px;height:34px;display:block}
+.st path{fill:rgba(255,255,255,.18);transition:fill .2s}
+.st.on path{fill:#FBBF24}
+
+@media (prefers-reduced-motion:reduce){
+  .tmq-track{flex-wrap:wrap;width:auto}
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .rv{opacity:1;transform:none}
+}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+
+<div id="progress"></div>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#home" aria-label="Numan Mustafa, home"><b>NM</b>Numan Mustafa</a>
+    <nav class="links" id="nav" aria-label="Main">
+      <a href="#work">Work</a><a href="#case-studies">Case Studies</a><a href="#services">Services</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn primary sm" href="#contact">Let's Work Together</a>
+    <button class="menu-btn" id="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i data-i="menu"></i></button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero hero-on">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="me glass">
+        <img src="img/profile.webp" alt="Portrait of Numan Mustafa" width="718" height="1078" data-zoom data-full="img/profile.webp" data-cap="Numan Mustafa">
+        <div><b>Numan Mustafa</b><span>E-commerce Specialist | Marketplace Management &amp; Growth Partner</span></div>
+      </div>
+      <h1>Turning E&#8209;commerce Operations Into <span class="grad">Scalable Growth.</span></h1>
+      <p class="sub">Helping businesses manage, optimize, and grow across leading e-commerce marketplaces.</p>
+      <div class="actions">
+        <a class="btn primary" href="#work">Explore My Work <i data-i="arrow"></i></a>
+        <a class="btn ghost" href="#contact">Let's Work Together</a>
+      </div>
+    </div>
+    <div class="stage" id="heroStage">
+      <div class="device tilt r" id="heroDev">
+        <div class="laptop">
+          <div class="lid"><div class="screen">
+            <div class="slides" id="slides"></div>
+          </div></div>
+          <div class="base"></div>
+        </div>
+      </div>
+      <div class="chip-f glass c1"><span class="ok"><i data-i="check"></i></span><div><b>Walmart Pro Seller</b><small>Status active, 6/6 criteria met</small></div></div>
+      <div class="chip-f glass c2"><span class="ok"><i data-i="check"></i></span><div><b>eBay US: Top Rated</b><small>Seller level on the dashboard</small></div></div>
+      <div class="chip-f glass c3"><span class="ok"><i data-i="chart"></i></span><div><b>TikTok Shop UK</b><small>GMV +307% in 28 days</small></div></div>
+      <span class="orb o1"></span><span class="orb o2"></span>
+      <div class="slide-ui">
+        <span class="cap" id="slideCap">eBay Seller Hub</span>
+        <div class="dots" id="dots" role="tablist" aria-label="Dashboard slides"></div>
+        <div class="arrows"><button class="arrow" id="sPrev" type="button" aria-label="Previous dashboard"><i data-i="left"></i></button><button class="arrow" id="sNext" type="button" aria-label="Next dashboard"><i data-i="right"></i></button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marq" aria-label="Marketplaces and expertise">
+  <div class="mq" id="mq1" aria-hidden="true"></div>
+  <div class="mq txt rev" id="mq2" aria-hidden="true"></div>
+</div>
+
+<section id="platforms">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="tag">Platforms &amp; expertise</span>
+      <h2 class="h2">Hands-on across the marketplaces that matter</h2>
+      <p class="lede">I help businesses build, manage, and grow their presence across leading e-commerce marketplaces through strategic management, product research, listing optimization, and performance-focused solutions.</p>
+    </div>
+    <div class="plat-grid" id="platGrid"></div>
+  </div>
+</section>
+
+<section id="work" style="background:linear-gradient(180deg,transparent,rgba(47,107,255,.05),transparent)">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="tag">Featured projects</span>
+      <h2 class="h2">Real accounts. Real dashboards.</h2>
+      <p class="lede">Original screenshots from the seller accounts I work on, shown unaltered. Click any screen to enlarge it.</p>
+    </div>
+
+    <article class="proj wide rv" id="p-walmart">
+      <div class="stage"><div class="device tilt l monitor ultra" style="--ar:1256/595">
+        <div class="bezel"><div class="screen">
+          <button class="win" type="button" data-zoom data-full="img/walmart-pro-seller.webp" data-cap="Walmart Seller Center, Pro Seller tier. Badged Nov 20, 2025. 6/6 criteria met. 1,132 orders in 90 days."><img src="img/walmart-pro-seller.webp" alt="Walmart Seller Center showing Pro Seller tier with 6 of 6 criteria met" width="2600" height="1232"></button>
+          <div class="pop" role="status"><span class="dotb"><i data-i="check"></i></span><div><b>Walmart Seller Center</b><span class="t">Your Pro Seller status is active.</span></div><small>now</small></div>
+        </div></div>
+        <div class="chin"></div><div class="neck"></div><div class="foot"></div>
+      </div></div>
+      <div>
+        <span class="tag">Project 01 · Walmart Marketplace</span>
+        <h3>Seller Center management and Pro Seller standards</h3>
+        <p>Day-to-day management of a Walmart Marketplace account, with performance tracked against the Pro Seller criteria.</p>
+        <ul><li><i data-i="check"></i>Pro Seller badge with 6/6 criteria met</li><li><i data-i="check"></i>1,132 orders in the 90 days before the evaluation</li><li><i data-i="check"></i>Listings, orders, fulfillment and account health</li></ul>
+        <div class="acts"><button class="btn primary sm" type="button" data-cs="walmart">Read case study</button><button class="btn ghost sm" type="button" data-inq="Walmart|Account Health">Inquire about Walmart</button></div>
+      </div>
+    </article>
+
+    <article class="proj flip rv" id="p-ebay">
+      <div class="stage"><div class="combo">
+        <div class="device tilt r monitor">
+          <div class="bezel"><div class="screen"><button class="win" type="button" data-zoom data-full="img/ebay-seller-hub.webp" data-cap="eBay Seller Hub overview (US). 292 active listings. $4,283.73 sales in the last 31 days (+5.6%). Data for Sep 19 – Oct 19, 2026."><img src="img/ebay-seller-hub.webp" alt="eBay Seller Hub overview with active listings, sales and seller level" width="1800" height="918"></button></div></div>
+          <div class="chin"></div><div class="neck"></div><div class="foot"></div>
+        </div>
+        <div class="phone"><div class="ps"><img src="img/ebay-uk-sales.webp" data-zoom data-full="img/ebay-uk-sales.webp" data-cap="eBay UK sales. £3,950.55 in the last 31 days (+36.7%). Data for 28 Sep – 26 Oct." alt="eBay UK sales: £3,950.55 over 31 days" width="1400" height="1592"></div></div>
+        <button class="mini glass" type="button" data-zoom data-full="img/ebay-seller-level.webp" data-cap="eBay seller level (US): Top Rated. Transaction defect rate 0.28%, late shipment rate 0.14%, tracking uploaded on time and validated 95.45%."><img src="img/ebay-seller-level.webp" alt="eBay seller level Top Rated" width="1200" height="888"><small>Top Rated · US</small></button>
+      </div></div>
+      <div>
+        <span class="tag">Project 02 · eBay Store Management</span>
+        <h3>eBay stores in the USA and UK</h3>
+        <p>I currently handle eBay stores operating in the USA and UK markets, from listings and product research to account performance.</p>
+        <ul><li><i data-i="check"></i>US seller level: Top Rated, defect rate 0.28%</li><li><i data-i="check"></i>UK: £3,950.55 over 31 days, +36.7% on the prior period</li><li><i data-i="check"></i>Store management, listings, research and optimization</li></ul>
+        <div class="acts"><button class="btn primary sm" type="button" data-cs="ebay">Read case study</button><button class="btn ghost sm" type="button" data-inq="eBay|Complete Account Management">Inquire about eBay</button></div>
+      </div>
+    </article>
+
+    <article class="proj wide flip rv" id="p-amazon">
+      <div class="stage"><div class="device tilt r monitor ultra" style="--ar:1730/802">
+        <div class="bezel"><div class="screen">
+          <button class="win" type="button" data-zoom data-full="img/amazon-ytd.webp" data-cap="Amazon Seller Central sales snapshot, year to date, marketplace total, Amazon and seller fulfilled. 15,147 order items, 18,703 units, $454,190.40 ordered product sales."><img src="img/amazon-ytd.webp" alt="Amazon Seller Central sales snapshot with $454,190 ordered product sales" width="2800" height="1298"></button>
+        </div></div>
+        <div class="chin"></div><div class="neck"></div><div class="foot"></div>
+      </div></div>
+      <div>
+        <span class="tag">Project 03 · Amazon Seller Central</span>
+        <h3>Amazon account management and growth</h3>
+        <p>Management of an Amazon seller account covering product research, listings, FBA and FBM operations, PPC and account health.</p>
+        <ul><li><i data-i="check"></i>$454,190 ordered product sales, year to date</li><li><i data-i="check"></i>15,147 order items and 18,703 units ordered</li><li><i data-i="check"></i>Research, listing optimization, PPC and inventory</li></ul>
+        <div class="acts"><button class="btn primary sm" type="button" data-cs="amazon">Read case study</button><button class="btn ghost sm" type="button" data-inq="Amazon|Complete Account Management">Inquire about Amazon</button></div>
+      </div>
+    </article>
+
+    <article class="proj flip rv" id="p-tiktok">
+      <div class="stage"><div class="dual">
+        <div class="device tilt r"><div class="laptop">
+          <div class="lid"><div class="screen"><button class="win" type="button" data-zoom data-full="img/tiktok-us-analytics.webp" data-cap="TikTok Shop US Seller Center, Sep 29 – Oct 28, 2026. GMV $9,938.46 (+3.18%), 624 orders (+31.09%) against the previous period."><img src="img/tiktok-us-analytics.webp" alt="TikTok Shop US analytics: $9,938 GMV and 624 orders" width="1800" height="849"></button></div></div><div class="base"></div></div></div>
+        <div class="laptop b"><div class="lid"><div class="screen"><button class="win" type="button" data-zoom data-full="img/tiktok-uk-home.webp" data-cap="TikTok Shop UK Seller Centre, last 28 days to Oct 20. GMV £8,183.05 (+307.32%), 412 customers, 12,550 visitors."><img src="img/tiktok-uk-home.webp" alt="TikTok Shop UK homepage: £8,183 GMV" width="1800" height="457"></button></div></div><div class="base"></div></div>
+      </div></div>
+      <div>
+        <span class="tag">Project 04 · TikTok Shop</span>
+        <h3>Seller Center operations and growth</h3>
+        <p>Product research, listing management and affiliate growth strategies for TikTok Shop sellers in the US and UK.</p>
+        <ul><li><i data-i="check"></i>US: 624 orders in 30 days, +31.09%</li><li><i data-i="check"></i>UK: GMV +307% over 28 days, 412 customers</li><li><i data-i="check"></i>Listings, product research and affiliate strategy</li></ul>
+        <div class="acts"><button class="btn primary sm" type="button" data-cs="tiktok">Read case study</button><button class="btn ghost sm" type="button" data-inq="TikTok Shop|Product Research">Inquire about TikTok Shop</button></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="case-studies">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="tag">Case studies</span>
+      <h2 class="h2">How I approach each project</h2>
+      <p class="lede">Facts come from the dashboards shown. Dashed amber blocks are placeholders to fill in with your own details.</p>
+    </div>
+    <div class="tabs rv" id="csTabs" role="tablist" aria-label="Case studies"></div>
+    <div class="glass" id="csPanel" role="tabpanel"></div>
+  </div>
+</section>
+
+<section id="gallery" style="background:linear-gradient(180deg,transparent,rgba(34,211,238,.04),transparent)">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="tag">Dashboard gallery</span>
+      <h2 class="h2">More from the seller dashboards</h2>
+    </div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by marketplace"></div>
+    <div class="shots" id="shots"></div>
+    <p class="note">Screenshots are from live seller accounts, shown with their original date ranges. Browser details, names and balances are removed.</p>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="tag">Services</span>
+      <h2 class="h2">What I can take off your plate</h2>
+    </div>
+    <div class="svc-grid" id="svcGrid"></div>
+    <div class="also rv"><span class="tag" style="margin-right:6px">Also available</span><span class="pill">LLC &amp; LTD registration</span><span class="pill">Warehouse &amp; fulfillment, USA and UK</span><span class="pill">Seller account creation</span><span class="pill">Suspension appeals</span></div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="tag">Skills</span>
+      <h2 class="h2">What I bring to a store</h2>
+    </div>
+    <div class="skills" id="skillGrid"></div>
+    <div class="tools-wrap rv"><span class="tag">Tools I work with</span><div class="tmq" aria-label="Tools"><div class="tmq-track" id="toolTrack"></div></div></div>
+  </div>
+</section>
+
+<section id="about" style="background:linear-gradient(180deg,transparent,rgba(47,107,255,.05),transparent)">
+  <div class="wrap about">
+    <div class="portrait rv">
+      <div class="frame"><img src="img/profile.webp" alt="Numan Mustafa, e-commerce specialist" width="718" height="1078" data-zoom data-full="img/profile.webp" data-cap="Numan Mustafa" style="cursor:zoom-in"></div>
+      <div class="chip-f glass"><span class="ok"><i data-i="store"></i></span><div><b>E-commerce Specialist</b><small>Growth Partner</small></div></div>
+    </div>
+    <div class="rv" style="--d:.1s">
+      <span class="tag">About me</span>
+      <h2 class="h2" style="margin:14px 0 22px">An operator who treats your store like his own</h2>
+      <p>I'm Numan Mustafa, an e-commerce specialist and growth partner. Since 2022 I have worked with sellers on Amazon, eBay, Walmart, Shopify and TikTok Shop, covering store management, product research, listing optimization and account health.</p>
+      <p>I focus on practical work: keeping accounts in good standing, listings accurate and competitive, and orders moving, so you can concentrate on the business.</p>
+      <div class="facts">
+        <div class="glass"><small>Platforms</small>Amazon, eBay, Walmart, Shopify, TikTok Shop</div>
+        <div class="glass"><small>Markets</small>USA, UK, Australia, Canada</div>
+        <div class="glass"><small>Focus</small>Management, research, listings, growth</div>
+        <div class="glass"><small>Education</small>Bachelor's Degree in Mathematics.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="tag">Why work with me</span><h2 class="h2">A partner, not just another pair of hands</h2></div>
+    <div class="why" id="whyGrid"></div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="tag">Reviews &amp; ratings</span><h2 class="h2" id="revTitle">Ratings &amp; feedback</h2></div>
+    <div id="revWrap">
+      <div class="car" id="car" tabindex="0" aria-label="Client reviews"></div>
+      <div class="car-ui"><p class="hint" id="tHint"></p>
+        <div class="arrows"><button class="arrow" id="cPrev" type="button" aria-label="Previous review"><i data-i="left"></i></button><button class="arrow" id="cNext" type="button" aria-label="Next review"><i data-i="right"></i></button></div></div>
+    </div>
+    <div class="rate glass rv">
+      <div>
+        <span class="tag">Share your experience</span>
+        <h3>Worked with me? Rate your experience.</h3>
+        <p>Your rating and comment help other sellers decide. Reviews are added to this page after I confirm them with you.</p>
+        <div class="avg" id="avg" hidden></div>
+      </div>
+      <div>
+        <form class="rform" id="rform" novalidate>
+          <div class="fld"><label id="lb-rate">Your rating</label>
+            <div class="starpick" id="starpick" role="radiogroup" aria-labelledby="lb-rate"></div><div class="err" data-for="rv-rate"></div></div>
+          <div class="fr">
+            <div class="fld"><label for="rv-name">Your name</label><input id="rv-name" type="text" autocomplete="name"><div class="err" data-for="rv-name"></div></div>
+            <div class="fld"><label for="rv-biz">Business / country</label><input id="rv-biz" type="text" placeholder="e.g. Home goods seller, UK"><div class="err" data-for="rv-biz"></div></div>
+          </div>
+          <div class="fld"><label for="rv-msg">Your comment</label><textarea id="rv-msg" style="min-height:120px" placeholder="What was it like working together? What changed for your store?"></textarea><div class="err" data-for="rv-msg"></div></div>
+          <button class="btn primary" type="submit">Submit Review <i data-i="arrow"></i></button>
+        </form>
+        <div class="ok-panel" id="rvOk" aria-live="polite">
+          <span class="big"><i data-i="check"></i></span>
+          <h3 style="font-size:26px;margin:0">Thank you for your review</h3>
+          <p class="lede" style="margin-top:0;font-size:16px">This page cannot send it on its own. Choose how to deliver it to me:</p>
+          <pre id="rvPre"></pre>
+          <div class="row"><a class="btn primary sm" id="rvMail" href="#">Send by email</a><button class="btn ghost sm" id="rvCopy" type="button">Copy review</button><a class="btn ghost sm" data-wa target="_blank" rel="noopener">Send on WhatsApp</a><button class="btn ghost sm" id="rvBack" type="button">Edit</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head rv"><span class="tag">Questions</span><h2 class="h2">Before you reach out</h2></div>
+    <div class="faq rv">
+      <details><summary>Which marketplaces do you work on?</summary><p>Amazon, eBay, Walmart, Shopify and TikTok Shop, for sellers in the USA, UK, Australia and Canada. I also have experience with Temu and OnBuy.</p></details>
+      <details><summary>Can you get a suspended account reinstated?</summary><p>I prepare the appeal: reading the notice, finding the root cause, gathering documents and writing the plan of action. Reinstatement depends on the reason and the marketplace's decision, so I cannot promise an outcome. I will tell you plainly what the chances look like after reviewing the case.</p></details>
+      <details><summary>Do you help with company registration and account creation?</summary><p>Yes. I support LLC creation for US sellers, LTD creation for UK sellers, and seller account creation on the main marketplaces.</p></details>
+      <details><summary>Can I hire you for one task?</summary><p>Yes. Product research, a listing clean-up, an appeal or a store setup can be one-off projects. Daily account management is ongoing.</p></details>
+      <details><summary>How do we get started?</summary><p>Send an inquiry with your marketplace, your goals and what is not working. I reply with a few questions or a suggested next step. You can also message me on WhatsApp.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="background:linear-gradient(180deg,transparent,rgba(47,107,255,.1))">
+  <div class="wrap contact">
+    <div class="rv">
+      <span class="tag">Contact</span>
+      <h2 style="margin-top:16px">Let's Grow Your <span class="grad">E-commerce Business</span> Together.</h2>
+      <p class="lede">Prefer to talk directly? Message me on WhatsApp or send an email.</p>
+      <div class="ways">
+        <a class="way glass" data-wa target="_blank" rel="noopener"><span class="ic"><i data-i="chat"></i></span><span class="v"><small>WhatsApp</small>Chat with me now</span><i data-i="right"></i></a>
+        <div class="way glass"><span class="ic"><i data-i="mail"></i></span><a class="v" data-mail style="text-decoration:none"><small>Email</small><span data-mailtxt></span></a><button class="cp" type="button" id="cpMail">Copy</button></div>
+        <a class="way glass" data-li target="_blank" rel="noopener" hidden><span class="ic"><i data-i="link"></i></span><span class="v"><small>LinkedIn</small>View my profile</span><i data-i="right"></i></a>
+      </div>
+    </div>
+    <div class="rv" style="--d:.1s">
+      <form class="inq glass" id="inq" novalidate>
+        <div>
+          <h3>Let's Discuss Your Project</h3>
+          <p class="lede" style="margin-top:10px;font-size:16px">Tell me about your business, your goals, and the services you need. I'll get back to you to discuss how we can work together.</p>
+        </div>
+        <div class="fr">
+          <div class="fld"><label for="f-name">Full name</label><input id="f-name" name="name" type="text" autocomplete="name"><div class="err" data-for="f-name"></div></div>
+          <div class="fld"><label for="f-email">Business email</label><input id="f-email" name="email" type="email" autocomplete="email"><div class="err" data-for="f-email"></div></div>
+        </div>
+        <div class="fr">
+          <div class="fld"><label for="f-co">Company / store name</label><input id="f-co" name="company" type="text" autocomplete="organization"><div class="err" data-for="f-co"></div></div>
+          <div class="fld"><label for="f-country">Country</label><input id="f-country" name="country" type="text" list="countries" autocomplete="country-name"><datalist id="countries"><option>USA</option><option>United Kingdom</option><option>Canada</option><option>Australia</option></datalist><div class="err" data-for="f-country"></div></div>
+        </div>
+        <div class="fr">
+          <div class="fld"><label for="f-market">Marketplace</label><select id="f-market" name="marketplace"><option value="">Select a marketplace</option><option>Amazon</option><option>eBay</option><option>Walmart</option><option>Shopify</option><option>TikTok Shop</option><option>Multiple Platforms</option><option>Other</option></select><div class="err" data-for="f-market"></div></div>
+          <div class="fld"><label for="f-service">Service required</label><select id="f-service" name="service"><option value="">Select a service</option><option>Complete Account Management</option><option>Product Research</option><option>Store Setup</option><option>Listing Optimization</option><option>PPC Management</option><option>Account Health</option><option>Other</option></select><div class="err" data-for="f-service"></div></div>
+        </div>
+        <div class="fld"><label for="f-msg">Project details / message</label><textarea id="f-msg" name="message" placeholder="Tell me about your store, current challenges, business goals, and what kind of support you are looking for..."></textarea><div class="err" data-for="f-msg"></div></div>
+        <button class="btn primary" type="submit">Submit Inquiry <i data-i="arrow"></i></button>
+        <p class="fine">Your details are used only to reply to this inquiry.</p>
+      </form>
+      <div class="inq glass ok-panel" id="okp" style="padding:clamp(22px,3.4vw,38px);border-radius:var(--r)" aria-live="polite">
+        <span class="big"><i data-i="check"></i></span>
+        <h3 id="okTitle" style="font-size:28px">Your inquiry is ready</h3>
+        <p class="lede" id="okText" style="margin-top:0;font-size:16px"></p>
+        <pre id="okPre"></pre>
+        <div class="row" id="okRow">
+          <a class="btn primary sm" id="okMail" href="#">Send by email</a>
+          <button class="btn ghost sm" id="okCopy" type="button">Copy message</button>
+          <a class="btn ghost sm" data-wa target="_blank" rel="noopener">Message on WhatsApp</a>
+          <button class="btn ghost sm" id="okBack" type="button">Edit inquiry</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Numan Mustafa · E-commerce Specialist</span>
+    <nav aria-label="Footer"><a data-mail><span data-mailtxt></span></a><a data-wa target="_blank" rel="noopener">WhatsApp</a><a data-li target="_blank" rel="noopener" hidden>LinkedIn</a></nav>
+  </div>
+</footer>
+
+<div class="fabs">
+  <button class="fab up" id="toTop" type="button" aria-label="Back to top"><i data-i="up"></i></button>
+  <a class="fab wa" data-wa target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i data-i="chat"></i></a>
+</div>
+
+<div class="ov lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged image">
+  <button class="xbtn" type="button" id="lbX" aria-label="Close"><i data-i="x"></i></button>
+  <button class="xbtn zbtn" type="button" id="lbZ" aria-label="Zoom to full size"><i data-i="search"></i></button>
+  <button class="nav prev" type="button" id="lbP" aria-label="Previous image"><i data-i="left"></i></button>
+  <button class="nav next" type="button" id="lbN" aria-label="Next image"><i data-i="right"></i></button>
+  <div class="box"><img id="lbImg" alt=""></div><p id="lbCap"></p>
+</div>
+<div class="ov" id="svcOv" role="dialog" aria-modal="true" aria-label="Service details"><div class="modal" id="svcModal"></div></div>
+
+<script>
+/* ===== EDIT HERE ===== */
+var CONFIG={
+  email:"numanmustafa.info@gmail.com",
+  whatsapp:"https://wa.me/qr/7ARLQZA2VCFMP1",
+  linkedin:"",          // paste your LinkedIn profile URL here; the button stays hidden until set
+  formEndpoint:""       // optional: a Formspree / Web3Forms endpoint URL to receive inquiries by email
+};
+var TESTIMONIALS=[
+  /* add real client feedback, for example:
+  {quote:"...", name:"Client name", business:"Business type", country:"USA"} */
+];
+/* ===================== */
+(function(){
+var $=function(s,c){return(c||document).querySelector(s)},$$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+var P={arrow:"M5 12h14M13 6l6 6-6 6",check:"M5 13l4 4L19 7",x:"M6 6l12 12M18 6L6 18",left:"M15 6l-6 6 6 6",right:"M9 6l6 6-6 6",up:"M12 19V5M6 11l6-6 6 6",menu:"M4 7h16M4 12h16M4 17h16",mail:"M3 6h18v12H3zM3 7l9 6 9-6",chat:"M21 12a8 8 0 0 1-11.6 7.1L4 20l1-5A8 8 0 1 1 21 12z",link:"M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1",cart:"M3 4h2l2.4 11h10.2l2-8H6.2M9 20.5h.01M17 20.5h.01",tag:"M3 12V4h8l10 10-8 8zM7.5 8.5h.01",shield:"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4",bag:"M5 8h14l-1 12H6zM9 8a3 3 0 0 1 6 0",play:"M10 4v11a3 3 0 1 1-3-3M10 4c.5 3 2.5 4.5 5 4.5",search:"M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",image:"M4 5h16v14H4zM4 16l5-5 4 4 3-3 4 4M9 9.5h.01",chart:"M3 3v18h18M7 15l4-4 3 3 5-6",store:"M3 9l2-5h14l2 5M4 9v11h16V9M9 20v-6h6v6",layers:"M12 3l9 5-9 5-9-5zM3 13l9 5 9-5",target:"M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z",users:"M16 20v-1a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v1M9.5 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M21 20v-1a4 4 0 0 0-3-3.9M16 4.2a3.5 3.5 0 0 1 0 6.6",zap:"M13 2L4 14h7l-1 8 9-12h-7z",clock:"M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 7v5l3 2",trend:"M3 17l6-6 4 4 8-8M15 7h6v6",box:"M21 8l-9-5-9 5v8l9 5 9-5zM3 8l9 5 9-5M12 13v8"};
+function ico(root){$$('i[data-i]',root).forEach(function(e){if(e.firstChild)return;var d=P[e.dataset.i];if(d)e.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+d+'"/></svg>'})}
+function I(n){return '<i data-i="'+n+'"></i>'}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var mq=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* contact wiring */
+$$('[data-mail]').forEach(function(a){a.href='mailto:'+CONFIG.email});
+$$('[data-mailtxt]').forEach(function(s){s.textContent=CONFIG.email});
+$$('[data-wa]').forEach(function(a){a.href=CONFIG.whatsapp});
+$$('[data-li]').forEach(function(a){if(CONFIG.linkedin){a.href=CONFIG.linkedin;a.hidden=false}});
+$('#cpMail').addEventListener('click',function(){var b=this;try{navigator.clipboard.writeText(CONFIG.email).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1800)},function(){})}catch(e){}});
+
+/* menu */
+var nav=$('#nav'),mb=$('#menu');
+mb.addEventListener('click',function(){var o=nav.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+$$('#nav a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');mb.setAttribute('aria-expanded','false')})});
+
+/* marquees */
+var MK=[['Amazon','#FF9900'],['eBay','#E53238'],['Walmart','#2F8BFF'],['Shopify','#95BF47'],['TikTok Shop','#25F4EE'],['Temu','#FB7701'],['OnBuy','#4F7CFF']];
+function fill(el,html){el.innerHTML=html+html}
+fill($('#mq1'),MK.map(function(m){return '<span style="--c:'+m[1]+'"><i></i>'+m[0]+'</span>'}).join(''));
+fill($('#mq2'),['Marketplace Management','Product Research','Listing Optimization','Account Health','PPC','Growth Strategy'].map(function(t){return '<span>'+t+' <em>✦</em></span>'}).join(''));
+
+/* hero slider */
+var SL=[['img/ebay-seller-hub.webp','eBay Seller Hub','eBay Seller Hub overview (US). 292 active listings, $4,283.73 in 31 days.','eBay Seller Hub overview',2600,1326],
+['img/walmart-pro-seller.webp','Walmart Seller Center','Walmart Seller Center, Pro Seller tier. 6/6 criteria met.','Walmart Pro Seller tier',2600,1232],
+['img/tiktok-us-analytics.webp','TikTok Shop US','TikTok Shop US key metrics, Sep 29 – Oct 28, 2026.','TikTok Shop US analytics',2400,1133],
+['img/walmart-2025-26.webp','Walmart sales','Walmart account sales summary, Jan 2025 – Sep 2026. $681,929 GMV from 30,451 orders.','Walmart account sales summary',2600,976]];
+var sl=$('#slides'),dots=$('#dots'),cur=0,timer;
+sl.innerHTML=SL.map(function(s,i){return '<div class="slide'+(i?'':' on')+'"><button class="win" type="button" data-zoom data-full="'+s[0]+'" data-cap="'+esc(s[2])+'"><img src="'+s[0]+'" alt="'+esc(s[3])+'" width="'+s[4]+'" height="'+s[5]+'"></button></div>'}).join('');
+dots.innerHTML=SL.map(function(s,i){return '<button class="dot'+(i?'':' on')+'" type="button" aria-label="Show '+esc(s[1])+'" data-i="'+i+'"></button>'}).join('');
+function go(n){cur=(n+SL.length)%SL.length;$$('.slide').forEach(function(e,i){e.classList.toggle('on',i===cur)});$$('.dot').forEach(function(e,i){e.classList.toggle('on',i===cur)});$('#slideCap').textContent=SL[cur][1]}
+function auto(){clearInterval(timer);if(!mq)timer=setInterval(function(){go(cur+1)},4800)}
+dots.addEventListener('click',function(e){var b=e.target.closest('.dot');if(b){go(+b.dataset.i);auto()}});
+$('#sPrev').addEventListener('click',function(){go(cur-1);auto()});$('#sNext').addEventListener('click',function(){go(cur+1);auto()});
+var hs=$('#heroStage');hs.addEventListener('mouseenter',function(){clearInterval(timer)});hs.addEventListener('mouseleave',auto);auto();
+/* hero pointer tilt */
+var hd=$('#heroDev');
+if(!mq&&matchMedia('(hover:hover)').matches){hs.addEventListener('mousemove',function(e){var r=hs.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;hd.style.transform='rotateY('+(-8+x*10)+'deg) rotateX('+(2-y*8)+'deg)'});hs.addEventListener('mouseleave',function(){hd.style.transform=''})}
+
+/* platforms */
+var PL=[['Amazon','#FF9900','cart',['Private Label','FBA & FBM','Product Research','Listing Optimization','PPC']],
+['eBay','#E53238','tag',['Store Management','Product Research','Listing Optimization','Account Performance','Growth Strategies']],
+['Walmart','#2F8BFF','store',['Seller Center Management','WFS & FBM','Product Research','Listing Optimization','Account Health']],
+['Shopify','#95BF47','bag',['Store Management','Store Setup','Product Management','Conversion Optimization']],
+['TikTok Shop','#25F4EE','play',['Product Research','Product Listings','Affiliate Marketing','Shop Management']]];
+$('#platGrid').innerHTML=PL.map(function(p,i){return '<article class="plat glass rv" style="--b:'+p[1]+';--d:'+(i*.08)+'s"><span class="ic">'+I(p[2])+'</span><h3>'+p[0]+'</h3><ul>'+p[3].map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul></article>'}).join('');
+
+/* services */
+var SV=[
+{t:'Amazon Account Management',i:'cart',m:'Amazon',s:'Complete Account Management',d:'Day-to-day management of your Amazon seller account, from listings to account health.',k:['Private label and FBA / FBM operations','Listing creation and optimization','PPC campaign management','Inventory and order monitoring','Account health and policy compliance','Reporting on sales and performance']},
+{t:'eBay Store Management',i:'tag',m:'eBay',s:'Complete Account Management',d:'Full eBay store management for sellers in the USA and UK.',k:['Listing creation and optimization','Product research for eBay demand','Seller level and defect rate monitoring','Orders, shipping and tracking','Promoted listings and growth strategy','Suspension appeals when needed']},
+{t:'Walmart Marketplace Management',i:'store',m:'Walmart',s:'Complete Account Management',d:'Seller Center management focused on performance and Pro Seller standards.',k:['Seller Center set-up and management','WFS and FBM fulfillment support','Listing optimization','Performance and account health tracking','Product research','Sales reporting']},
+{t:'Shopify Store Management',i:'bag',m:'Shopify',s:'Store Setup',d:'Set up and run a Shopify store that is built to convert.',k:['Store set-up and product management','Product page and conversion optimization','Collections, pricing and promotions','Order handling and customer messages','Connecting marketplaces and fulfillment','Ongoing store maintenance']},
+{t:'TikTok Shop Management',i:'play',m:'TikTok Shop',s:'Complete Account Management',d:'Seller Center operations and growth for US and UK TikTok Shop sellers.',k:['Product research for TikTok Shop','Product listing management','Seller Center operations','Affiliate growth strategies','Campaign and promotion set-up','Performance monitoring']},
+{t:'Product Research & Listing Optimization',i:'search',m:'Multiple Platforms',s:'Product Research',d:'Find products worth selling, then present them so shoppers buy.',k:['Product and niche research (Helium 10, Jungle Scout, Keepa)','Competitor analysis','Keyword research','Titles, bullets and descriptions','Listing audits and fixes','Pricing review']}];
+$('#svcGrid').innerHTML=SV.map(function(s,i){return '<article class="svc glass rv" style="--d:'+((i%3)*.08)+'s"><span class="ic">'+I(s.i)+'</span><h3>'+s.t+'</h3><p>'+s.d+'</p><ul>'+s.k.slice(0,3).map(function(x){return '<li>'+I('check')+x+'</li>'}).join('')+'</ul><div class="row"><button class="btn ghost sm" type="button" data-svc="'+i+'">Learn More</button><button class="btn primary sm" type="button" data-inq="'+s.m+'|'+s.s+'">Inquire Now</button></div></article>'}).join('');
+$$('.svc').forEach(function(c){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--mx',(e.clientX-r.left)+'px');c.style.setProperty('--my',(e.clientY-r.top)+'px')})});
+var svcOv=$('#svcOv'),svcM=$('#svcModal');
+function openSvc(i){var s=SV[i];svcM.innerHTML='<button class="xbtn" type="button" id="svcX" aria-label="Close">'+I('x')+'</button><h3>'+s.t+'</h3><p>'+s.d+'</p><ul>'+s.k.map(function(x){return '<li>'+I('check')+x+'</li>'}).join('')+'</ul><button class="btn primary" type="button" data-inq="'+s.m+'|'+s.s+'">Inquire Now</button>';ico(svcM);svcOv.classList.add('open');$('#svcX').focus()}
+function closeSvc(){svcOv.classList.remove('open')}
+svcOv.addEventListener('click',function(e){if(e.target===svcOv||e.target.closest('#svcX'))closeSvc()});
+
+/* skills & why */
+var SK=[['Marketplace Management','layers','Day-to-day account, order and inventory control.'],['Product Research','search','Finding demand and profit before you buy stock.'],['Competitor Analysis','target','Pricing, listings and gaps worth exploiting.'],['Listing Optimization','trend','Titles, content and keywords that rank and convert.'],['Account Health','shield','Metrics, policy and compliance kept in good standing.'],['E-commerce Operations','cart','Fulfillment, shipping and customer messages.'],['Inventory Management','box','Stock levels that keep listings live and orders shipping.'],['Business Development','users','Expanding to new products and marketplaces.']];
+$('#skillGrid').innerHTML=SK.map(function(s,i){return '<div class="sk glass rv" style="--d:'+((i%4)*.07)+'s">'+I(s[1])+'<h3>'+s[0]+'</h3><p>'+s[2]+'</p></div>'}).join('');
+var WY=[['Practical Marketplace Experience','store','Years of daily work inside real seller accounts.'],['Multi-Platform Expertise','layers','Amazon, eBay, Walmart, Shopify and TikTok Shop under one roof.'],['Data-Driven Decisions','chart','Pricing, products and ads chosen from the numbers.'],['Business-Focused Approach','target','Work tied to orders, margin and account safety.'],['Reliable Communication','chat','Clear updates and quick replies.'],['Long-Term Growth Partnership','users','I stay with the store as it grows.']];
+$('#whyGrid').innerHTML=WY.map(function(s,i){return '<div class="glass rv" style="--d:'+((i%3)*.07)+'s">'+I(s[1])+'<h3>'+s[0]+'</h3><p>'+s[2]+'</p></div>'}).join('');
+
+/* case studies */
+var CS=[
+{id:'walmart',tab:'Walmart',t:'Walmart Marketplace: Pro Seller account',img:'img/walmart-pro-seller.webp',cap:'Walmart Seller Center, Pro Seller tier. 6/6 criteria met.',
+ ov:'Seller Center management for a Walmart Marketplace account, covering listings, orders, fulfillment and account performance.',
+ ch:'Keep the account meeting every Pro Seller performance criterion while order volume grows.',
+ re:['Seller Center management','Listing optimization and product research','Order and fulfillment monitoring (WFS and FBM)','Account health and performance tracking'],
+ st:'Review performance metrics and orders every day, fix issues before they affect the account, and keep listings accurate and competitive.',
+ to:['Walmart Seller Center','WFS','FBM'],
+ ou:['Pro Seller badge active, 6/6 criteria met (badged Nov 20, 2025)','1,132 orders in the 90 days before that evaluation']},
+{id:'ebay',tab:'eBay',t:'eBay store management in the USA and UK',img:'img/ebay-seller-hub.webp',cap:'eBay Seller Hub overview (US).',
+ ov:'Management of eBay stores operating in the USA and UK, covering listings, research, shipping and account performance.',
+ ch:'Hold Top Rated standards on both marketplaces while keeping listings, shipments and tracking in order.',
+ re:['Store management and listing optimization','Product research','Account performance and seller level monitoring','Growth strategies','Suspension appeals where needed'],
+ st:'Track defect rate, late shipments and tracking uploads weekly, keep listings current, and respond to account notices quickly.',
+ to:['eBay Seller Hub','Promoted listings','Product research tools'],
+ ou:['US seller level: Top Rated. Defect rate 0.28%, late shipment rate 0.14%, tracking uploaded on time 95.45%','US Seller Hub: 292 active listings and $4,283.73 in sales over 31 days (+5.6%), Sep 19 – Oct 19, 2026','UK: £3,950.55 in sales over 31 days (+36.7%), 28 Sep – 26 Oct'],
+ extra:[['img/ebay-uk-sales.webp','eBay UK sales'],['img/ebay-seller-level.webp','US seller level'],['img/ebay-reinstated.webp','Account reinstated after suspension (identifiers hidden)']]},
+{id:'amazon',tab:'Amazon',t:'Amazon Seller Central: account management',img:'img/amazon-ytd.webp',cap:'Amazon Seller Central sales snapshot, year to date.',
+ ov:'Management of an Amazon seller account covering product research, listings, FBA and FBM operations, advertising and account health.',
+ ch:'Keep an active Amazon seller account growing while listings, inventory and account health stay in order.',
+ re:['Product research','Listing optimization','FBA and FBM operations','PPC campaign management','Account health monitoring'],
+ st:'Use product and keyword research to guide listings, review advertising performance regularly, and keep inventory and account metrics under watch.',
+ to:['Amazon Seller Central','Helium 10','Jungle Scout','Keepa'],
+ ou:['Year-to-date ordered product sales: $454,190.40','15,147 order items and 18,703 units ordered','Average sales per order item: $29.99']},
+{id:'tiktok',tab:'TikTok Shop',t:'TikTok Shop: Seller Center operations',img:'img/tiktok-us-analytics.webp',cap:'TikTok Shop US key metrics.',
+ ov:'Seller Center operations for TikTok Shop sellers in the US and UK, including product research, listings and affiliate growth.',
+ ch:'Turn a new shop into a steady source of orders with the right products and creator support.',
+ re:['Product research','Product listing management','Seller Center operations','Affiliate growth strategies'],
+ st:'Choose products with demand, list them clearly, and use affiliate creators to widen reach while monitoring Seller Center metrics.',
+ to:['TikTok Shop Seller Center','Affiliate programme'],
+ ou:['US, Sep 29 – Oct 28, 2026: GMV $9,938.46 (+3.18%), 624 orders (+31.09%) against the previous period','UK, 28 days to Oct 20: GMV £8,183.05 (+307.32%), 412 customers, 12,550 visitors'],
+ extra:[['img/tiktok-uk-home.webp','TikTok Shop UK, 28 days'],['img/tiktok-uk-analytics.webp','TikTok Shop UK, Aug – Sep']]}];
+var tabs=$('#csTabs'),panel=$('#csPanel'),csI=0;
+tabs.innerHTML=CS.map(function(c,i){return '<button class="tab" type="button" role="tab" data-i="'+i+'" aria-selected="'+(i===0)+'">'+c.tab+'</button>'}).join('');
+function blk(h,body,cls){return '<div class="blk'+(cls?' '+cls:'')+'"><h4>'+h+'</h4>'+body+'</div>'}
+function ul(a){return '<ul>'+a.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul>'}
+function renderCS(i){csI=i;var c=CS[i];$$('.tab').forEach(function(t,j){t.setAttribute('aria-selected',j===i)});
+ var top='<div class="cs-top"><div><span class="tag">'+c.tab+'</span><h3>'+c.t+'</h3><p class="lede" style="margin-top:0">'+esc(c.ov)+'</p></div><button class="cs-shot" type="button" data-zoom data-full="'+c.img+'" data-cap="'+esc(c.cap)+'"><img src="'+c.img+'" alt="'+esc(c.cap)+'"></button></div>';
+ var g='<div class="cs-grid">'+blk('Project overview','<p>'+esc(c.ov)+'</p>')+blk('Business challenge','<p>'+esc(c.ch)+'</p>')+blk('My responsibilities',ul(c.re))+blk('Strategy & execution','<p>'+esc(c.st)+'</p>')+blk('Tools & platforms','<div class="tl">'+c.to.map(function(x){return '<span>'+esc(x)+'</span>'}).join('')+'</div>')+blk('Project outcome',ul(c.ou))+'</div>';
+ var btn='<button class="btn primary sm" type="button" data-inq="'+c.tab+'|Complete Account Management" style="align-self:center">Inquire about '+c.tab+'</button>';
+ var ex='<div class="cs-more">'+(c.extra?c.extra.map(function(x){return '<button class="thumb" type="button" data-zoom data-full="'+x[0]+'" data-cap="'+esc(x[1])+'" title="'+esc(x[1])+'"><img src="'+x[0]+'" alt="'+esc(x[1])+'" loading="lazy"></button>'}).join(''):'')+btn+'</div>';
+ panel.innerHTML='<div class="cs">'+top+g+ex+'</div>';ico(panel)}
+tabs.addEventListener('click',function(e){var b=e.target.closest('.tab');if(b)renderCS(+b.dataset.i)});
+renderCS(0);
+document.addEventListener('click',function(e){var b=e.target.closest('[data-cs]');if(!b)return;var i=CS.map(function(c){return c.id}).indexOf(b.dataset.cs);renderCS(i);$('#case-studies').scrollIntoView({behavior:mq?'auto':'smooth'})});
+
+/* gallery */
+var GA=[['walmart','Walmart','img/walmart-2025-26.webp','$681,929 GMV','30,451 orders · Jan 2025 – Sep 2026'],
+['ebay','eBay','img/ebay-seller-hub.webp','292 active listings','eBay US Seller Hub · $4,283.73 in 31 days (+5.6%)'],
+['amazon','Amazon','img/amazon-ytd.webp','$454,190 ordered product sales','Amazon · 15,147 order items · year to date'],
+['tiktok','TikTok Shop','img/tiktok-us-analytics.webp','624 orders (+31.09%)','TikTok Shop US · $9,938 GMV · Sep 29 – Oct 28'],
+['walmart','Walmart','img/walmart-lifetime.webp','$300,346 GMV','21,159 orders · Oct 2024 – Oct 2026'],
+['ebay','eBay','img/ebay-seller-level.webp','Top Rated seller level','eBay US · defect rate 0.28% · late shipment 0.14%'],
+['tiktok','TikTok Shop','img/tiktok-uk-home.webp','£8,183 GMV (+307%)','TikTok Shop UK · 412 customers · 28 days'],
+['ebay','eBay','img/ebay-uk-sales.webp','£3,950.55 in 31 days (+36.7%)','eBay UK · 28 Sep – 26 Oct'],
+['walmart','Walmart','img/walmart-aug.webp','$54,563 in one month','2,389 orders · August 2026'],
+['ebay','eBay','img/ebay-us-sales.webp','$1,466.85 in 31 days (+87.2%)','eBay US · Top Rated · Sep 22 – Oct 22 · photo of screen'],
+['tiktok','TikTok Shop','img/tiktok-uk-analytics.webp','£1,410 GMV','TikTok Shop UK · 80 orders · Aug – Sep 2026'],
+['temu','Temu','img/temu-analytics.webp','$7,053 sales','Temu · 267 orders · 258 buyers · Oct 2026'],
+['temu','Temu','img/temu-home.webp','0 urgent order tasks','Temu · no late-shipment or refund risks queued']];
+var FC=['All','Walmart','Amazon','eBay','TikTok Shop','Temu'];
+$('#filters').innerHTML=FC.map(function(f,i){return '<button class="fchip" type="button" data-f="'+f+'" aria-pressed="'+(i===0)+'">'+f+'</button>'}).join('');
+$('#shots').innerHTML=GA.map(function(g){return '<figure class="shot glass'+(g[2].indexOf('ebay-us-sales')>-1?' tall':'')+'" data-p="'+g[1]+'"><button class="fz" type="button" data-zoom data-full="'+g[2]+'" data-cap="'+esc(g[3]+'. '+g[4])+'"><img loading="lazy" src="'+g[2]+'" alt="'+esc(g[3]+', '+g[4])+'"></button><figcaption><b>'+g[3]+'</b><span>'+g[4]+'</span></figcaption></figure>'}).join('');
+$('#filters').addEventListener('click',function(e){var c=e.target.closest('.fchip');if(!c)return;$$('.fchip').forEach(function(x){x.setAttribute('aria-pressed',x===c)});$$('.shot').forEach(function(s){s.hidden=!(c.dataset.f==='All'||s.dataset.p===c.dataset.f)})});
+
+/* tools slider + reviews */
+var TL=['Helium 10','Jungle Scout','Keepa','Google Analytics','Amazon Seller Central','eBay Seller Hub','Walmart Seller Center','TikTok Shop Seller Center','Shopify Admin','Microsoft Excel'];
+var th=TL.map(function(t){return '<div class="tool glass"><b>'+t.charAt(0)+'</b>'+t+'</div>'}).join('');$('#toolTrack').innerHTML=th+th;
+var car=$('#car');
+function stars(n){var o='';for(var i=1;i<=5;i++)o+='<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 2l3 6.9 7.4.7-5.6 4.9 1.7 7.3L12 17.9 5.5 21.8l1.7-7.3L1.6 9.6 9 8.9z" fill="'+(i<=n?'#FBBF24':'rgba(255,255,255,.18)')+'"/></svg>';return '<span class="stars" role="img" aria-label="'+n+' out of 5 stars">'+o+'</span>'}
+if(TESTIMONIALS.length){
+  car.innerHTML=TESTIMONIALS.map(function(t){var r=t.rating||5;return '<article class="tc glass">'+stars(r)+'<q>“'+esc(t.quote)+'”</q><div class="who"><span class="av">'+(t.photo?'<img src="'+esc(t.photo)+'" alt="'+esc(t.name)+'">':esc((t.name||'?').charAt(0)))+'</span><div><b>'+esc(t.name)+'</b><small>'+esc(t.business||'')+(t.country?' · '+esc(t.country):'')+'</small></div></div></article>'}).join('');
+  var avg=TESTIMONIALS.reduce(function(a,t){return a+(t.rating||5)},0)/TESTIMONIALS.length;
+  var av=$('#avg');av.hidden=false;av.innerHTML=avg.toFixed(1)+' '+stars(Math.round(avg))+'<small>from '+TESTIMONIALS.length+' client review'+(TESTIMONIALS.length>1?'s':'')+'</small>';
+  $('#tHint').textContent='Feedback from clients I have worked with.';$('#revTitle').textContent='What clients say';
+}else{$('#revWrap').hidden=true}
+function cstep(d){var c=$('.tc',car);if(!c)return;car.scrollBy({left:d*(c.offsetWidth+18),behavior:mq?'auto':'smooth'})}
+$('#cPrev').addEventListener('click',function(){cstep(-1)});$('#cNext').addEventListener('click',function(){cstep(1)});
+var rating=0,sp=$('#starpick');
+sp.innerHTML=[1,2,3,4,5].map(function(n){return '<button class="st" type="button" role="radio" aria-checked="false" aria-label="'+n+' star'+(n>1?'s':'')+'" data-v="'+n+'"><svg viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.4.7-5.6 4.9 1.7 7.3L12 17.9 5.5 21.8l1.7-7.3L1.6 9.6 9 8.9z"/></svg></button>'}).join('');
+function paint(n){$$('.st',sp).forEach(function(b){var v=+b.dataset.v;b.classList.toggle('on',v<=n);b.setAttribute('aria-checked',v===rating)})}
+sp.addEventListener('click',function(e){var b=e.target.closest('.st');if(!b)return;rating=+b.dataset.v;paint(rating);rerr('rv-rate','')});
+sp.addEventListener('mouseover',function(e){var b=e.target.closest('.st');if(b)paint(+b.dataset.v)});sp.addEventListener('mouseleave',function(){paint(rating)});
+function rerr(id,m){var e=$('.err[data-for="'+id+'"]');e.textContent=m||'';var f=e.closest('.fld');if(f&&id!=='rv-rate')f.classList.toggle('bad',!!m)}
+$('#rform').addEventListener('submit',function(e){e.preventDefault();var n=$('#rv-name').value.trim(),m=$('#rv-msg').value.trim();
+ rerr('rv-rate',rating?'':'Choose a star rating.');rerr('rv-name',n.length<2?'Enter your name.':'');rerr('rv-msg',m.length<15?'Write a short comment (at least 15 characters).':'');
+ if(!rating||n.length<2||m.length<15)return;
+ var body='Rating: '+rating+' out of 5\nName: '+n+'\nBusiness / country: '+($('#rv-biz').value.trim()||'-')+'\n\n'+m+'\n\nI am happy for this review to be shown on your website.';
+ var subj='New review for Numan Mustafa ('+rating+'/5)';
+ $('#rvPre').textContent='Subject: '+subj+'\n\n'+body;$('#rvMail').href='mailto:'+CONFIG.email+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(body);
+ $('#rform').style.display='none';$('#rvOk').classList.add('show');$('#rvOk').scrollIntoView({block:'center',behavior:mq?'auto':'smooth'})});
+$('#rvBack').addEventListener('click',function(){$('#rvOk').classList.remove('show');$('#rform').style.display=''});
+$('#rvCopy').addEventListener('click',function(){var b=this,t=$('#rvPre').textContent;try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy review'},1800)},function(){})}catch(e){}});
+
+/* lightbox */
+var lb=$('#lb'),li=$('#lbImg'),lc=$('#lbCap'),zl=[],zi=0,zopener=null;
+function collect(){var seen={};zl=$$('[data-zoom]').filter(function(e){var f=e.dataset.full;if(seen[f])return false;seen[f]=1;return true})}
+function showZ(n){lb.classList.remove('zoomed');zi=(n+zl.length)%zl.length;var e=zl[zi];li.src=e.dataset.full;li.alt=e.dataset.cap||'';lc.textContent=e.dataset.cap||''}
+function openZ(el){collect();zopener=el;var f=el.dataset.full;zi=0;zl.forEach(function(e,i){if(e.dataset.full===f)zi=i});showZ(zi);lb.classList.add('open');$('#lbX').focus()}
+function closeZ(){lb.classList.remove('open','zoomed');li.removeAttribute('src');if(zopener)zopener.focus&&zopener.focus()}
+document.addEventListener('click',function(e){var z=e.target.closest('[data-zoom]');if(z&&!lb.contains(z)){e.preventDefault();openZ(z)}});
+$('#lbX').addEventListener('click',closeZ);$('#lbZ').addEventListener('click',function(){lb.classList.toggle('zoomed')});li.addEventListener('click',function(){lb.classList.toggle('zoomed')});$('#lbP').addEventListener('click',function(){showZ(zi-1)});$('#lbN').addEventListener('click',function(){showZ(zi+1)});
+lb.addEventListener('click',function(e){if(e.target===lb)closeZ()});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){if(lb.classList.contains('open'))closeZ();if(svcOv.classList.contains('open'))closeSvc()}
+ if(lb.classList.contains('open')){if(e.key==='ArrowLeft')showZ(zi-1);if(e.key==='ArrowRight')showZ(zi+1)}});
+
+/* inquiry */
+var form=$('#inq'),okp=$('#okp');
+document.addEventListener('click',function(e){var b=e.target.closest('[data-inq]');if(!b)return;var v=b.dataset.inq.split('|');closeSvc();if(lb.classList.contains('open'))closeZ();
+ $('#f-market').value=v[0]||'';$('#f-service').value=v[1]||'';$('#contact').scrollIntoView({behavior:mq?'auto':'smooth'});setTimeout(function(){$('#f-name').focus({preventScroll:true})},mq?0:700)});
+document.addEventListener('click',function(e){var b=e.target.closest('[data-svc]');if(b)openSvc(+b.dataset.svc)});
+function setErr(id,m){var f=$('#'+id).closest('.fld');f.classList.toggle('bad',!!m);$('.err[data-for="'+id+'"]').textContent=m||''}
+function validate(){var ok=true,v=function(id){return $('#'+id).value.trim()};
+ var r=[['f-name',v('f-name').length<2,'Enter your full name.'],['f-email',!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v('f-email')),'Enter a valid email address, for example name@company.com.'],['f-co',v('f-co').length<2,'Enter your company or store name.'],['f-country',v('f-country').length<2,'Enter your country.'],['f-market',!v('f-market'),'Choose a marketplace.'],['f-service',!v('f-service'),'Choose the service you need.'],['f-msg',v('f-msg').length<20,'Tell me a little more (at least 20 characters).']];
+ var first=null;r.forEach(function(x){setErr(x[0],x[1]?x[2]:'');if(x[1]){ok=false;if(!first)first=x[0]}});if(first)$('#'+first).focus();return ok}
+$$('#inq input,#inq select,#inq textarea').forEach(function(el){el.addEventListener('input',function(){if(el.closest('.fld').classList.contains('bad'))setErr(el.id,'')})});
+function compose(){var g=function(id){return $('#'+id).value.trim()};return {subject:'Inquiry: '+g('f-service')+' on '+g('f-market')+' ('+g('f-co')+')',
+ body:'Name: '+g('f-name')+'\nEmail: '+g('f-email')+'\nCompany / store: '+g('f-co')+'\nCountry: '+g('f-country')+'\nMarketplace: '+g('f-market')+'\nService: '+g('f-service')+'\n\n'+g('f-msg')}}
+form.addEventListener('submit',function(e){e.preventDefault();if(!validate())return;var m=compose();
+ function showReady(sent){form.style.display='none';okp.classList.add('show');$('#okPre').textContent='Subject: '+m.subject+'\n\n'+m.body;
+  $('#okMail').href='mailto:'+CONFIG.email+'?subject='+encodeURIComponent(m.subject)+'&body='+encodeURIComponent(m.body);
+  $('#okTitle').textContent=sent?'Inquiry sent':'Your inquiry is ready';
+  $('#okText').textContent=sent?'Thank you. I will reply to '+$('#f-email').value.trim()+' soon.':'This page cannot send email on its own. Choose how you would like to send it: by email, or on WhatsApp after copying the message.';
+  $('#okRow').style.display=sent?'none':'flex';okp.scrollIntoView({block:'center',behavior:mq?'auto':'smooth'})}
+ if(CONFIG.formEndpoint){fetch(CONFIG.formEndpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:$('#f-name').value,email:$('#f-email').value,company:$('#f-co').value,country:$('#f-country').value,marketplace:$('#f-market').value,service:$('#f-service').value,message:$('#f-msg').value})}).then(function(r){showReady(r.ok)},function(){showReady(false)})}
+ else showReady(false)});
+$('#okCopy').addEventListener('click',function(){var b=this,t=$('#okPre').textContent;try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy message'},1800)},function(){selPre()})}catch(e){selPre()}});
+function selPre(){var r=document.createRange();r.selectNodeContents($('#okPre'));var s=getSelection();s.removeAllRanges();s.addRange(r)}
+$('#okBack').addEventListener('click',function(){okp.classList.remove('show');form.style.display='';$('#f-msg').focus()});
+
+/* reveal, progress, nav highlight, process fill, to-top */
+var rvs=$$('.rv');
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -6% 0px'});rvs.forEach(function(r){io.observe(r)})}else rvs.forEach(function(r){r.classList.add('in')});
+setTimeout(function(){rvs.forEach(function(r){if(r.getBoundingClientRect().top<innerHeight)r.classList.add('in')})},60);
+var secs=$$('main section[id]'),links=$$('nav.links a'),up=$('#toTop'),prog=$('#progress');
+function onScroll(){var h=document.documentElement.scrollHeight-innerHeight;prog.style.width=(h>0?scrollY/h*100:0)+'%';up.classList.toggle('show',scrollY>700);
+ var cur='';secs.forEach(function(s){if(s.getBoundingClientRect().top<innerHeight*.4)cur=s.id});links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)});
+}
+addEventListener('scroll',onScroll,{passive:true});addEventListener('resize',onScroll);onScroll();
+up.addEventListener('click',function(){scrollTo({top:0,behavior:mq?'auto':'smooth'})});
+ico(document);
+})();
+</script>
+
+</body></html>
